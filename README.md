@@ -1,34 +1,92 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# THIS IS A README OF THE CREATIVE TUTORIALS WEBSITE
 
-## Getting Started
+## Introduction
 
-First, run the development server:
+Welcome to the [Creative Tutorials](https://creativetutorials.org) website.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+My name is [Treasure](https://github.com/creative-tutorials) and I am a full stack developer.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I build websites and applications for the web.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Recently I have made this website before but I didn't like it because i used some tools that I don't like. I wanted to make a website that was simple and easy to use.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+# What is the purpose of this website?
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+This website is a place where you can find tutorials and resources for web development. And also you can find some of my other projects with useful tips along the way.
 
-## Learn More
+# Contributing
 
-To learn more about Next.js, take a look at the following resources:
+This website is open source. You can contribute to it by making a pull request on [GitHub](https://github.com/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Things you might be fixing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Typos - Simple mistakes in the code or documentation
 
-## Deploy on Vercel
+- Bugs - An error that you can't find: Most of the time as the website progresses, bugs are found, especially when more users are logging in, database updates daily so this is problem to look out for.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Things you might be improving
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Documentation - The documentation is not up to date.
+
+- Code Quality - The quality of the code is not good.
+
+- Code Style - The code is not clean and readable.
+
+- Code Completeness - The code is not complete.
+
+# How to contribute
+
+- Create a pull request
+
+- Create a new issue
+
+- Create a new branch
+
+- Create a new repository
+
+- Commit your changes
+
+- Push your changes to the remote repository
+
+- Watch the progress of the pull request
+
+
+
+# Security
+
+
+When logging in, you will be asked to enter your email only. This is because we need your email to make sure you are not a bot using this site. We will not store your email anywhere. We will not use your email for any other purpose or for a third party. Your email will be stored and secured in our database.
+
+
+# Contributors
+
+
+[Treasure](https://github.com/creative-tutorials)
+
+[Mhizter html](https://github.com/creative-tutorials)
+
+
+# License
+
+
+This website is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+
+
+# Contact
+
+
+If you have any questions, comments, or concerns, please contact us at [mail](mailto:treasureedesemhen500@gmail.com)
+
+
+# Credits
+
+
+This website was created using [Firebase](https://firebase.google.com/).
+
+
+
+# Tech Stack
+
+
+[<img src="https://www.svgrepo.com/show/303670/firebase-1-logo.svg" width="30" style="margin-right: 3px"></img>](https://console.firebase.google.com/)
+[<img src="https://www.svgrepo.com/show/369457/nextjs.svg" width="30" style="filter: invert(1);"></img>](https://nextjs.org/)

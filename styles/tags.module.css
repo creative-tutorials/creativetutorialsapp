@@ -1,0 +1,90 @@
+.header {
+  width: 100%;
+  position: fixed;
+  padding: 20px 50px;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(24, 24, 26, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 999;
+}
+.header .header_links .header_link {
+  margin-right: 40px;
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: rgb(186, 186, 186);
+  font-weight: 500;
+  transition: 0.2s ease-in-out;
+}
+.header .header_links .header_link:hover {
+  color: rgb(255, 255, 255);
+}
+.tagBox {
+  padding: 130px 100px;
+  width: 100%;
+  position: relative;
+  top: 100px;
+}
+.tagBox_content_video {
+    margin-top: 20px;
+}
+.tagBox_content_video iframe {
+  width: 100%;
+  max-width: 1400px;
+  height: 650px;
+  /* max-height: 900px; */
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+.tagBox .tagBox_content_title {
+  width: 100%;
+  border-bottom: 2px dashed #e6e6e6;
+}
+.tagBox .tagBox_content_title h1 {
+  font-size: 4rem;
+  color: #fff;
+  text-align: center;
+}
+
+.tagBox .tagBox_content .tagBox_content_text {
+    font-size: 1.1rem;
+    color: #e6e6e6;
+    text-align: justify;
+}
+.tagBox .tagBox_content .tagBox_content_text h1 {
+    margin-bottom: -30px;
+    color: #c1e0ff;
+}
+.tagBox .tagBox_content .tagBox_content_text li:hover {
+    color: #c1e0ff;
+    cursor: pointer;
+}
+.tagBox pre {
+    background-color: #f5f5f5;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    max-height: 300px;
+    overflow: scroll;
+    /* max-width: 400px; */
+}
+.tagBox pre::-webkit-scrollbar {
+    width: 5px;
+    background: transparent;
+}
+.tagBox pre::-webkit-scrollbar-thumb {
+    background: #232f3b;
+    border-radius: 5px;
+}
+.tagBox pre code {
+   color: #111;
+}
+.tagBox pre code.language-javascript {
+    color: #f5f5f5;
+}

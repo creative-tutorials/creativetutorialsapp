@@ -1,7 +1,6 @@
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
-// import VueRouter from 'vue-router'
 
 export default function Home() {
   return (
@@ -56,13 +55,10 @@ export default function Home() {
       <div className={styles.banner}>
         <div className={styles.banner_content}>
           <div className={styles.bannerVideo}>
-            <iframe
-              src="https://www.youtube.com/embed/_yV5aDA4SDQ"
-              title="Build an AI that builds Coding Projects using NextJs and Firebase"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; loop"
-              allowFullScreen
-            ></iframe>
+            <object
+              data="https://www.youtube.com/embed/_yV5aDA4SDQ"
+              type="video/mp4"
+            ></object>
           </div>
           <div className={styles.banner_content_text}>
             <h1>

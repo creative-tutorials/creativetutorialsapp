@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import tags from "../../styles/tags.module.css";
-export default function Tags() {
+export default function VideoofAPI() {
   return (
     <div className={tags.wrapper}>
       <div className={tags.header}>
@@ -57,13 +57,10 @@ export default function Tags() {
         </div>
         <div className={tags.tagBox_content}>
           <div className={tags.tagBox_content_video}>
-            <iframe
-              src="https://www.youtube.com/embed/GNCevIHA1E0"
-              title="How to Build your own custom API for beginners"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
+            <object
+              data="https://www.youtube.com/embed/GNCevIHA1E0"
+              type="video/mp4"
+            ></object>
           </div>
           <div className={tags.tagBox_content_text}>
             Hello There! In this blog, I will be sharing how to build your own
@@ -97,13 +94,41 @@ export default function Tags() {
               </li>
             </ul>
             <div className={tags.timestamps}>
-              <span>00:01</span>
               <div className={tags.timestamps_content}>
-                In the video I covered how to fetch our data from our API. First
-                we used all our public APIs tool to create our API and
-                endpoints.
+                <span>00:01</span> In the video I covered how to fetch our data
+                from our API. First we used all our public APIs tool to create
+                our API and endpoints.
                 <br /> After that we used React to fetch the data from our API,
                 and that is done using <b>&lt;Fetch&gt;</b> component.
+                <br />
+                <br />
+                <span>03:50</span> First to test our API we used <b>Insomnia</b>{" "}
+                to test our API. Now Insomnia is a tool we use to test our API.
+                It has lots of methods to test our API. like <b>GET</b>,{" "}
+                <b>POST</b>, <b>PUT</b>, <b>DELETE</b>, <b>PATCH</b>,{" "}
+                <b>HEAD</b>, <b>OPTIONS</b>. But in this video we will cover
+                only <b>GET</b> method.
+                <br />
+                <br />
+                All I needed to do was to make sure my method was on <b>
+                  GET
+                </b>{" "}
+                and my API was running.
+                <h2>A screenshot of the Insomnia test is shown below.</h2>
+                <Image
+                  width={500}
+                  height={500}
+                  objectFit="cover"
+                  src={"/insomnia.png"}
+                  alt="Image of Insomnia test"
+                />
+                <br />
+                <br />
+                <span>10:17</span> We have come to our last and final step which
+                is to use our React App to test our API. I don&apos;t want to
+                bore you with all the details covered in this one, But I&apos;
+                suggest you to watch the video again and see how to test your
+                API. If you have any questions, please feel free to contact me.
                 <h1>📑Source Code</h1>
                 {/*  */}
                 <div className={tags.codes}>

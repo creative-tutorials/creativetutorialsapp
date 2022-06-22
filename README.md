@@ -20,7 +20,7 @@ This website is a place where you can find tutorials and resources for web devel
 
 This website is open source. You can contribute to it by making a pull request on [GitHub](https://github.com/)
 
-# Things you might be fixing
+## Things you might be fixing
 
 - Typos - Simple mistakes in the code or documentation
 
@@ -28,7 +28,7 @@ This website is open source. You can contribute to it by making a pull request o
 
 - Designs Flaws - If you find any design flaws in the website, you can report them on the [GitHub issues](https://github.com/creative-tutorials/creativetutorialsapp/issues) page.
 
-# Things you might be improving
+## Things you might be improving
 
 - Documentation - The documentation is not up to date.
 

@@ -28,7 +28,7 @@ export default function Home() {
 
           <Link href="/tag">
             <a className={styles.header_link}>
-              <i className="fa-light fa-video"></i> Videos
+              <i className="fa-light fa-video"></i> Projects
             </a>
           </Link>
 
@@ -81,7 +81,7 @@ export default function Home() {
 
               <Link href="/tag">
                 <a className={styles.banner_content_button}>
-                  <i className="fa-light fa-video"></i> Browse Videos
+                  <i className="fa-light fa-video"></i> Browse Projects
                 </a>
               </Link>
             </div>
@@ -146,7 +146,7 @@ export default function Home() {
               </p>
             </div>
             <div className={styles.featureVideos_content_buttons}>
-              <Link href="/tag">
+              <Link href="/tags/product_card">
                 <a> Read More</a>
               </Link>
             </div>

@@ -31,7 +31,7 @@
 .tagBox_content_video {
     margin-top: 20px;
 }
-.tagBox_content_video iframe {
+.tagBox_content_video object {
   width: 100%;
   max-width: 1400px;
   height: 650px;

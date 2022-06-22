@@ -68,7 +68,7 @@
   /* margin-right: 50px; */
 }
 /* styling an iframe */
-.banner .banner_content .bannerVideo iframe {
+.banner .banner_content .bannerVideo object {
   width: 100%;
   max-width: 600px;
   height: 350px;
@@ -77,7 +77,7 @@
   border-radius: 5px;
   transition: 0.2s ease-in-out;
 }
-.banner .banner_content .bannerVideo iframe:hover {
+.banner .banner_content .bannerVideo object:hover {
   animation: change 0.5s ease-in-out;
 }
 @keyframes change {
@@ -169,19 +169,22 @@
     
 } */
 @media screen and (max-width: 1259px) {
-    .banner .banner_content {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        /* flex-wrap: wrap; */
-        width: 100%;
-      }
-      .banner .banner_content .banner_content_text .banner_content_buttons {
-        margin-top: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-      }
+  .banner .banner_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    width: 100%;
+  }
+  .banner .banner_content .banner_content_text .banner_content_buttons {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .banner .banner_content .banner_content_text .banner_content_button {
+    margin-bottom: 20px;
+  }
 }

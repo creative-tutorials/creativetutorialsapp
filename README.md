@@ -12,11 +12,11 @@ I build websites and applications for the web.
 
 Recently I have made this website before but I didn't like it because i used some tools that I don't like. I wanted to make a website that was simple and easy to use.
 
-# What is the purpose of this website?
+## What is the purpose of this website?
 
 This website is a place where you can find tutorials and resources for web development. And also you can find some of my other projects with useful tips along the way.
 
-# Contributing
+## Contributing
 
 This website is open source. You can contribute to it by making a pull request on [GitHub](https://github.com/)
 
@@ -40,7 +40,7 @@ This website is open source. You can contribute to it by making a pull request o
 
 - Design Errors/Missing Features - If there's a design error or missing feature, you can report it on the [GitHub issues](https://github.com/creative-tutorials/creativetutorialsapp/issues) page. The team will try to fix it.
 
-# How to contribute
+## How to contribute
 
 - Create a pull request
 

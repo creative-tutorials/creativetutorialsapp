@@ -1,3 +1,5 @@
+<img src="public/logo.png" style="border-radius: 50%"></img>
+
 # THIS IS A README OF THE CREATIVE TUTORIALS WEBSITE
 
 ## Introduction
@@ -24,6 +26,8 @@ This website is open source. You can contribute to it by making a pull request o
 
 - Bugs - An error that you can't find: Most of the time as the website progresses, bugs are found, especially when more users are logging in, database updates daily so this is problem to look out for.
 
+- Designs Flaws - If you find any design flaws in the website, you can report them on the [GitHub issues](https://github.com/creative-tutorials/creativetutorialsapp/issues) page.
+
 # Things you might be improving
 
 - Documentation - The documentation is not up to date.
@@ -33,6 +37,8 @@ This website is open source. You can contribute to it by making a pull request o
 - Code Style - The code is not clean and readable.
 
 - Code Completeness - The code is not complete.
+
+- Design Errors/Missing Features - If there's a design error or missing feature, you can report it on the [GitHub issues](https://github.com/creative-tutorials/creativetutorialsapp/issues) page. The team will try to fix it.
 
 # How to contribute
 
@@ -52,10 +58,26 @@ This website is open source. You can contribute to it by making a pull request o
 
 
 
-# Security
+# Privacy Policy
 
 
-When logging in, you will be asked to enter your email only. This is because we need your email to make sure you are not a bot using this site. We will not store your email anywhere. We will not use your email for any other purpose or for a third party. Your email will be stored and secured in our database.
+Our privacy policy states that we do not collect any personal information.
+Your email address is used to send you updates about the website.
+If there's any updates to our Terms of Service, we will send you an email.
+Also you'll get an email if there has being any recent changes/updates to the website.
+
+
+# Terms of Service
+
+
+Our Terms of Service states that you can use the website for free. Our Terms if Service also states that you can't use the website for commercial purposes. We also state that you can't use the website to spam or to sell anything like user's accounts or other personal information. If you are caught doing this, you will be banned from the website and reported to the FBI.
+
+
+# Disclaimer
+
+
+This website is not affiliated with any of the companies or organizations that I work for.
+
 
 
 # Contributors
@@ -76,13 +98,6 @@ This website is licensed under the [Creative Commons Attribution-ShareAlike 4.0 
 
 
 If you have any questions, comments, or concerns, please contact us at [mail](mailto:treasureedesemhen500@gmail.com)
-
-
-# Credits
-
-
-This website was created using [Firebase](https://firebase.google.com/).
-
 
 
 # Tech Stack
